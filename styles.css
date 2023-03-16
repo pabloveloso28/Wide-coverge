@@ -115,38 +115,57 @@ section{
 
 @media screen and (max-width:900px) {
 
-    .link-header {
+      .menu  {
         display: none;
     }
 
+    
 
     section {
 
         display: block;
-
+        margin-top: -600px;
     }
 
     h1 {
 
         font-weight: 700;
-        font-size: 30px;
         line-height: 30px;
         text-align: center;
         letter-spacing: 0.596154px;
         color: #161A49;
+        margin-left: -108px;
+        font-size: 24px;
+    }
+
+    p{
+
+        width: 241px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color: #4B505A;
+        margin: 38px 62px;
 
     }
 
-    .logo-img {
-        width: 312px;
-        height: 288px;
-        margin: 54 39 22 39;
-        display: block;
-
+    .img {
+        margin-left: 18px;
+        width: 350px;
+        height: 305px;
+        margin-top: 200px;
     }
 
-        .link-button {
-            font-size: 12px;
+    .a {
+            font-size: 15px;
+            margin-left: 140px;
         }
+
+
+    .botao{
+
+        margin-top: 25px;
+        margin-left: 210px;
+    }    
 
     }
